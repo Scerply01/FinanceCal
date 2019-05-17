@@ -28,6 +28,10 @@
             //About US is Active
             echo '<a class="nav-item nav-link active" href="about_us.php">About Us<span class="sr-only">(current)"></span></a>';
           }else echo '<a class="nav-item nav-link" href="about_us.php">About Us</a>';
+          if ($index==3){
+            //Calculator is Active
+            echo '<a class="nav-item nav-link active" href="calculator.php">Finance Calculator<span class="sr-only">(current)"></span></a>';
+          }else echo '<a class="nav-item nav-link" href="calculator.php">Finance Calculator</a>';
          ?>
       </div>
     </div>
